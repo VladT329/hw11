@@ -21,15 +21,11 @@ public class Book {
         return this.year;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAuthor(Author author) {
-        this.author = author;
-    }
-
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public String toString (){
+        return "Название книги - " + this.name + ", автор - " + this.author + ", год публикации - " + this.year;
     }
 }
